@@ -1,0 +1,67 @@
+/* Default mobile style rules */
+
+title{
+    font-size: 52px;
+}
+
+a{
+    font-family: 'Montserrat';
+}
+
+header{
+    background-color: #0B1C51;
+    color: #fff;
+}
+
+header h1{
+    color: #FFF;
+    text-align: center;
+    margin:0;
+    padding-top:20px
+}
+
+header nav{
+    display:flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    padding-left:0;
+    list-style: none;
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li a:hover{
+    color: #fff000;
+}
+
+
+
+/* Desktop media query and style rules */
+
+@media all and (min-width: 800px) {
+
+    title{
+        font-size: 48px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    header h1{
+        margin:14px 0;
+        padding-top:0;
+    }
+    header nav{
+        margin-top: 10px;
+    }
+
+}
